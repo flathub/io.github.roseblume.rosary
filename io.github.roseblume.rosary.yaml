@@ -18,12 +18,13 @@ modules:
     - install -Dm644 metainfo/io.github.roseblume.rosary.xml /app/share/metainfo/io.github.roseblume.rosary.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/RoseBlume/Rosary/releases/download/v1.2.3/Rosary_1.2.3.zip
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.3.zip
         sha256: 5d26f63e028d9096d1d008e908bc79f89f26720463562d01586c2d9a3bb3e158
         dest-filename: rosary.zip
         only-arches: [x86_64]
       - type: archive
-        url: https://github.com/RoseBlume/Rosary/releases/download/v1.2.3/Rosary_1.2.3_Arm64.zip
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.3_Arm64.zip
         sha256: cd409c553990aedf27cf1813fccbe42fd0715fa41ec87b1080a347e6a482f3be
         dest-filename: rosary.zip
         only-arches: [aarch64]
+
