@@ -19,7 +19,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.4.zip
-        sha256: bec5fcbfaa075e1fdf1298ed812c1f619ff2bd330eb66dba3dc3ac7f9839aa24
+        sha256: bcda9c466ad82d5e62a624271993a222d1830125d1fa2f78677cc897a8d1552b
         dest-filename: rosary.zip
         only-arches: [x86_64]
       - type: archive
