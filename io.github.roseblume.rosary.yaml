@@ -17,7 +17,7 @@ modules:
     - install -Dm644 icons/hicolor/32x32/apps/rosary.png /app/share/icons/hicolor/32x32/apps/io.github.roseblume.rosary.svg
     - install -Dm644 icons/hicolor/128x128/apps/rosary.png /app/share/icons/hicolor/128x128/apps/io.github.roseblume.rosary.png
     - install -Dm644 icons/hicolor/256x256@2/apps/rosary.png /app/share/icons/hicolor/256x256@2/apps/io.github.roseblume.rosary.png
-    - install -Dm644 metainfo/io.github.roseblume.rosary.xml /app/share/metainfo/io.github.roseblume.rosary.metainfo.xml
+    - install -Dm644 io.github.roseblume.rosary.xml /app/share/metainfo/io.github.roseblume.rosary.metainfo.xml
     sources:
       - type: archive
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.5.zip
@@ -29,3 +29,6 @@ modules:
         sha256: 981fbcdfb9578a93b20dd5209335cef28111904dba03f2042600a17f97e8c009
         dest-filename: rosary.zip
         only-arches: [aarch64]
+      - type: file
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/io.github.roseblume.rosary.xml
+        sha256: a049c12c01b1c9eb7ba0fc106494b9af4453be1623fdfb5d42fb34d2e401cc57
