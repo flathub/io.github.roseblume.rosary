@@ -12,18 +12,20 @@ modules:
   - name: rosary
     buildsystem: simple
     build-commands:
-    - install -Dm755 rosary /app/bin/rosary #Binary
+    - install -Dm755 rosary /app/bin/rosary 
     - install -Dm644 applications/io.github.roseblume.rosary.desktop /app/share/applications/io.github.roseblume.rosary.desktop
-    - install -Dm644 icons/hicolor/scalable/apps/io.github.roseblume.rosary.svg /app/share/icons/hicolor/scalable/apps/io.github.roseblume.rosary.svg
+    - install -Dm644 icons/hicolor/32x32/apps/rosary.png /app/share/icons/hicolor/32x32/apps/io.github.roseblume.rosary.svg
+    - install -Dm644 icons/hicolor/128x128/apps/rosary.png /app/share/icons/hicolor/128x128/apps/io.github.roseblume.rosary.png
+    - install -Dm644 icons/hicolor/256x256@2/apps/rosary.png /app/share/icons/hicolor/256x256@2/apps/io.github.roseblume.rosary.png
     - install -Dm644 metainfo/io.github.roseblume.rosary.xml /app/share/metainfo/io.github.roseblume.rosary.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.4.zip
-        sha256: bcda9c466ad82d5e62a624271993a222d1830125d1fa2f78677cc897a8d1552b
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.5.zip
+        sha256: 6261796ccc80230f9340ea188cbff42ba2e6076313529ca91e94f03ef8f6ff68
         dest-filename: rosary.zip
         only-arches: [x86_64]
       - type: archive
-        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.4_Arm64.zip
-        sha256: 2af7f6fc1e67d9f45df0c93bd1f86c2bbc47030fe32a516e94d7d8543680554d
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Rosary_1.2.5_Arm64.zip
+        sha256: 981fbcdfb9578a93b20dd5209335cef28111904dba03f2042600a17f97e8c009
         dest-filename: rosary.zip
         only-arches: [aarch64]
