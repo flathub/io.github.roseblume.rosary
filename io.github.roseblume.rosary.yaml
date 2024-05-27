@@ -31,4 +31,4 @@ modules:
         only-arches: [aarch64]
       - type: file
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/io.github.roseblume.rosary.xml
-        sha256: a049c12c01b1c9eb7ba0fc106494b9af4453be1623fdfb5d42fb34d2e401cc57
+        sha256: 1e2b9ed99aaabf9d45117970a1b7429f2013414e88b7a96b59bf1fb0abd57fea
