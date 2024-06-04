@@ -37,6 +37,6 @@ modules:
         sha256: 0d93e5ea145f082a065dd49e7c0c20fd00cfe209c1d707a7595d6f955c814f71
       - type: archive
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/Flatpak.zip
-        sha256: 623ff4eb401772f4945211ba487b5574564b8e0447b844f4d971603637984354
+        sha256: 713fb55a1b3547ad47f10ec7083deb22a5b82c769e10222cd55429842ae00914
         dest-filename: rosary.zip
 
