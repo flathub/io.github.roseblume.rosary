@@ -17,7 +17,7 @@
         <content_attribute id="language-discrimination">mild</content_attribute>
     </content_rating>
     <keywords>
-         <keyword translate="no">Jesus</keyword>
+        <keyword translate="no">Jesus</keyword>
         <keyword translate="no">Books</keyword>
         <keyword translate="no">Bible</keyword>
         <keyword translate="no">Bibles</keyword>
@@ -285,49 +285,49 @@
     <releases>
         <release version="2.0.1" date="2024-06-05" >
             <description>
-            <ul>
-                <li>Improved Menu Loading time</li>
-                <li>Better Maintainability</li>
-                <li>New Icon</li>
-            </ul>
-            </descritption>
+                <ul>
+                    <li>Improved Menu Loading time</li>
+                    <li>Better Maintainability</li>
+                    <li>New Icon</li>
+                </ul>
+            </description>
         </release>
         <release version="2.0.0" date="2024-06-04">
             <description>
-            <ul>
-                <li>Updated Menu</li>
-                <li>Improved Loading times</li>
-                <li>Added Better Support for aarch64</li>
-            </ul>
+                <ul>
+                    <li>Updated Menu</li>
+                    <li>Improved Loading times</li>
+                    <li>Added Better Support for aarch64</li>
+                </ul>
             </description>
         </release>
         <release version="1.2.6" date="2024-05-27">
             <description>
-            <ul>
-                <li>Improved Speed optimizations</li>
-            </ul>
+                <ul>
+                    <li>Improved Speed optimizations</li>
+                </ul>
             </description>
         </release>
         <release version="1.2.5" date="2024-05-24">
             <description>
-            <ul>
-                <li>Improved Binary Sizes</li>
-                <li>Compiled using a more cutting edge </li>
-            </ul>
+                <ul>
+                    <li>Improved Binary Sizes</li>
+                    <li>Compiled using a more cutting edge </li>
+                </ul>
             </description>
         </release>
         <release version="1.2.4" date="2024-05-23" >
             <description>
-            <ul>
-                <li>Improved Conditional Rendering</li>
-            </ul>
+                <ul>
+                    <li>Improved Conditional Rendering</li>
+                </ul>
             </description>
         </release>
         <release version="1.2.3" date="2024-05-21" >
             <description>
-            <ul>
-                <li>Switched from React to SolidJS frontend framework</li>
-            </ul>
+                <ul>
+                    <li>Switched from React to SolidJS frontend framework</li>
+                </ul>
             </description>
         </release>
     </releases>
