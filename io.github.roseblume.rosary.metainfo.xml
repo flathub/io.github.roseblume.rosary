@@ -283,11 +283,19 @@
         </screenshot>
     </screenshots>
     <releases>
-        <release version="2.0.0" date="2024-06-05">
+        <release version="2.0.1" date="2024-06-05" >
+            <description>
+            <ul>
+                <li>Improved Menu Loading time</li>
+                <li>Better Maintainability</li>
+                <li>New Icon</li>
+            </ul>
+            </descritption>
+        </release>
+        <release version="2.0.0" date="2024-06-04">
             <description>
             <ul>
                 <li>Updated Menu</li>
-                <li>New Icon</li>
                 <li>Improved Loading times</li>
                 <li>Added Better Support for aarch64</li>
             </ul>
