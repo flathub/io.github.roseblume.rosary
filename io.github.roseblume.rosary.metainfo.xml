@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>io.github.roseblume.rosary</id>
+    <launchable type="desktop-id">io.github.roseblume.rosary.desktop</launchable>
+    <name>Rosary</name>
+    <developer id="io.github.roseblume.rosary">
+        <name>James A. Rose</name>
+    </developer>
+    <content_rating type="oars-1.1">
+        <content_attribute id="violence-realistic">mild</content_attribute>
+        <content_attribute id="violence-bloodshed">mild</content_attribute>
+        <content_attribute id="violence-desecration">mild</content_attribute>
+        <content_attribute id="violence-slavery">mild</content_attribute>
+        <content_attribute id="drugs-alcohol">mild</content_attribute>
+        <content_attribute id="sex-nudity">mild</content_attribute>
+        <content_attribute id="sex-themes">mild</content_attribute>
+        <content_attribute id="language-discrimination">mild</content_attribute>
+    </content_rating>
+    <keywords>
+        <keyword translate="no">Jesus</keyword>
+        <keyword translate="no">Books</keyword>
+        <keyword translate="no">Bible</keyword>
+        <keyword translate="no">Bibles</keyword>
+        <keyword translate="no">God</keyword>
+        <keyword translate="no">Christian</keyword>
+        <keyword translate="no">Christianity</keyword>
+        <keyword translate="no">Church</keyword>
+        <keyword translate="no">Faith</keyword>
+        <keyword translate="no">Religion</keyword>
+        <keyword translate="no">Prayer</keyword>
+        <keyword translate="no">Gospel</keyword>
+        <keyword translate="no">Holy</keyword>
+        <keyword translate="no">Salvation</keyword>
+        <keyword translate="no">Worship</keyword>
+        <keyword translate="no">Heaven</keyword>
+        <keyword translate="no">Grace</keyword>
+        <keyword translate="no">Holy</keyword>
+        <keyword translate="no">Jesus</keyword>
+        <keyword translate="no">God</keyword>
+        <keyword translate="no">Faith</keyword>
+        <keyword translate="no">Religion</keyword>
+        <keyword translate="no">Prayer</keyword>
+        <keyword translate="no">Gospel</keyword>
+        <keyword translate="no">Holy</keyword>
+        <keyword translate="no">Salvation</keyword>
+        <keyword translate="no">Worship</keyword>
+        <keyword translate="no">Heaven</keyword>
+        <keyword translate="no">Grace</keyword>
+        <keyword translate="no">Christ</keyword>
+        <keyword translate="no">Devotion</keyword>
+        <keyword translate="no">Saints</keyword>
+        <keyword translate="no">Chapel</keyword>
+        <keyword translate="no">Cathedral</keyword>
+        <keyword translate="no">Eden</keyword>
+        <keyword translate="no">Genesis</keyword>
+        <keyword translate="no">Revelation</keyword>
+        <keyword translate="no">Pentecost</keyword>
+        <keyword translate="no">Epistle</keyword>
+        <keyword translate="no">Apostles</keyword>
+        <keyword translate="no">Disciple</keyword>
+        <keyword translate="no">Messiah</keyword>
+        <keyword translate="no">Prophecy</keyword>
+        <keyword translate="no">Trinity</keyword>
+        <keyword translate="no">Miracles</keyword>
+        <keyword translate="no">Savior</keyword>
+        <keyword translate="no">Blessings</keyword>
+        <keyword translate="no">Pastor</keyword>
+        <keyword translate="no">Ministry</keyword>
+        <keyword translate="no">Sanctuary</keyword>
+        <keyword translate="no">New Testament</keyword>
+        <keyword translate="no">Old Testament</keyword>
+        <keyword translate="no">Scripture</keyword>
+        <keyword translate="no">Sermon</keyword>
+        <keyword translate="no">Shepherd</keyword>
+        <keyword translate="no">Immaculate</keyword>
+        <keyword translate="no">Incarnation</keyword>
+        <keyword translate="no">Parables</keyword>
+        <keyword translate="no">Tabernacle</keyword>
+        <keyword translate="no">Divine</keyword>
+        <keyword translate="no">Sacred</keyword>
+        <keyword translate="no">Sin</keyword>
+        <keyword translate="no">Spirit</keyword>
+        <keyword translate="no">Preacher</keyword>
+        <keyword translate="no">Hallelujah</keyword>
+        <keyword translate="no">Baptism</keyword>
+        <keyword translate="no">Rosary</keyword>
+        <keyword translate="no">Psalms</keyword>
+        <keyword translate="no">Exodus</keyword>
+        <keyword translate="no">Monastery</keyword>
+        <keyword translate="no">Hymns</keyword>
+        <keyword translate="no">Sacrament</keyword>
+        <keyword translate="no">Literature</keyword>
+        <keyword translate="no">Reading</keyword>
+        <keyword translate="no">History</keyword>
+        <keyword translate="no">Education</keyword>
+        <keyword translate="no">Books</keyword>
+        <keyword translate="no">Study</keyword>
+        <keyword translate="no">Linux</keyword>
+        <keyword translate="no">Book</keyword>
+
+    </keywords>
+    <branding>
+        <color type="primary" scheme_preference="light">#ff3751</color>
+        <color type="primary" scheme_preference="dark">#8f0013</color>
+    </branding>
+    <recommends>
+        <display_length compare="ge">360</display_length>
+    </recommends>
+    <summary>Study Christianity</summary>
+
+    <metadata_license>MIT</metadata_license>
+    <project_license>MIT</project_license>
+    <url type="homepage">https://github.com/RoseBlume/Rosary</url>
+
+    <supports>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>touch</control>
+    </supports>
+
+    <description>
+        <p>
+            Read the Bible and other Christian texts. This projects goal is to allow each person to study the bible and come to their own conclusion about their faith.
+        </p>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/RoseBlume/Rosary/side/main.png</image>
+            <caption />
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/RoseBlume/Rosary/side/menu.png</image>
+            <caption />
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="2.0.0" date="2024-06-05">
+            <description>
+            <ul>
+                <li>Updated Menu</li>
+                <li>New Icon</li>
+                <li>Improved Loading times</li>
+                <li>Added Better Support for aarch64</li>
+            </ul>
+            </description>
+        </release>
+        <release version="1.2.6" date="2024-05-27">
+            <description>
+            <ul>
+                <li>Improved Speed optimizations</li>
+            </ul>
+            </description>
+        </release>
+        <release version="1.2.5" date="2024-05-24">
+            <description>
+            <ul>
+                <li>Improved Binary Sizes</li>
+                <li>Compiled using a more cutting edge </li>
+            </ul>
+            </description>
+        </release>
+        <release version="1.2.4" date="2024-05-23" >
+            <description>
+            <ul>
+                <li>Improved Conditional Rendering</li>
+            </ul>
+            </description>
+        </release>
+        <release version="1.2.3" date="2024-05-21" >
+            <description>
+            <ul>
+                <li>Switched from React to SolidJS frontend framework</li>
+            </ul>
+            </description>
+        </release>
+    </releases>
+    <update_contact>jrosary-dev@outlook.com</update_contact>
+</component>
