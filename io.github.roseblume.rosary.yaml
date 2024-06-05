@@ -24,16 +24,14 @@ modules:
       - install -Dm644 io.github.roseblume.rosary.metainfo.xml /app/share/metainfo/io.github.roseblume.rosary.metainfo.xml
     sources:
       - type: file
-        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.0_amd64.deb
-        sha256: c45f569293b3cb30a2aa102277b36298bd0c5ce242d884951bcd88ef4cfc791a
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.1_amd64.deb
+        sha256: f6813a9fcf408b41053f33a34e8870eea2144235706f46eeda115c253deb11c5
         dest-filename: rosary.deb
         only-arches: [x86_64]
       - type: file
-        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.0_arm64.deb
-        sha256: c8bac16ff010528afa7495bcc4c450bae92bbdbd86dd8a29d832a620476a4a49
+        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.1_arm64.deb
+        sha256: 6840dfc85cbcf9eb45ef6f79055fe0c724d139a786c00220a247aaf240030c6f
         dest-filename: rosary.deb
         only-arches: [aarch64]
       - type: file
         path: io.github.roseblume.rosary.metainfo.xml
-        #url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/io.github.roseblume.rosary.xml
-        #sha256: 0d93e5ea145f082a065dd49e7c0c20fd00cfe209c1d707a7595d6f955c814f71
