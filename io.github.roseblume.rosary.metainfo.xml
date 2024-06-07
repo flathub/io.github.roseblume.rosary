@@ -282,8 +282,19 @@
             <image>https://raw.githubusercontent.com/RoseBlume/Rosary/side/menu.png</image>
             <caption />
         </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/RoseBlume/Rosary/side/menuex.png</image>
+            <caption />
+        </screenshot>
     </screenshots>
     <releases>
+        <release version="2.0.3" date="2024-06-07">
+            <description>
+                <ul>
+                    <li>Bug Fixes</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.0.2" date="2024-06-06">
             <description>
                 <ul>
