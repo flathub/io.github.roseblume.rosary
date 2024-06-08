@@ -288,6 +288,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.0.4" date="2024-06-08">
+            <description>
+                <ul>
+                    <li>Added Support for armhf</li>
+                    <li>Minor Bug Fixes</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.0.3" date="2024-06-07">
             <description>
                 <ul>
