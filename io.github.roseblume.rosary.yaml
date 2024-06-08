@@ -37,6 +37,6 @@ modules:
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.3_armhf.deb
         sha256: 8a8140bf7dcea4852a265b55bca332bb904d249627521b1bd1a985b383fd8307
         dest-filename: rosary.deb
-        only-arches: [arm]
+        only-arches: [armhf]
       - type: file
         path: io.github.roseblume.rosary.metainfo.xml
