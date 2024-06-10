@@ -30,7 +30,7 @@ modules:
         only-arches: [x86_64]
       - type: file
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.4_arm64.deb
-        sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+        sha256: 56cfab06115da595339f640ea2f20bd39682bdf1dc4dec27d9669b62a66b4e39
         dest-filename: rosary.deb
         only-arches: [aarch64]
       - type: file
