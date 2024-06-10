@@ -251,7 +251,7 @@
     </keywords>
     <branding>
         <color type="primary" scheme_preference="light">#ff3751</color>
-        <color type="primary" scheme_preference="dark">#8f0013</color>
+        <color type="primary" scheme_preference="dark">#df3140</color>
     </branding>
     <recommends>
         <display_length compare="ge">360</display_length>
