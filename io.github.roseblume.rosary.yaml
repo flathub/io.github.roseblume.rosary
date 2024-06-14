@@ -32,7 +32,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 6377
-          url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_$version_amd64.deb
+          url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_"$version"_amd64.deb
       - type: file
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.4_arm64.deb
         sha256: ce1dc97a6a2710739247ea54675dc0905ee043dfcb7a75a98f3b7be55d2221b0
@@ -41,7 +41,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 6377
-          url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_$version_arm64.deb
+          url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_"$version"_arm64.deb
       - type: file
         url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.4_armhf.deb
         sha256: d8ea57fa42f6080b33a13571eba1bfff93147700f4068fdb1f59a3aae77e6512
@@ -50,7 +50,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 6377
-          url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_$version_armhf.deb
+          url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_"$version"_armhf.deb
       - type: file
         path: Flatpak.svg
         dest-filename: rosary.svg
