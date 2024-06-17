@@ -284,6 +284,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.0.6" date="2024-06-17">
+            <description>
+                <ul>
+                    <li>Updated Icon</li>
+                    <li>Updated Dependencies</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.0.5" date="2024-06-10">
             <description>
                 <ul>
