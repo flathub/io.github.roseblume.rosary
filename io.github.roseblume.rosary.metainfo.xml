@@ -250,8 +250,8 @@
 
     </keywords>
     <branding>
-        <color type="primary" scheme_preference="light">#ff3751</color>
-        <color type="primary" scheme_preference="dark">#df3140</color>
+        <color type="primary" scheme_preference="light">#00ffff</color>
+        <color type="primary" scheme_preference="dark">#0c9aff</color>
     </branding>
     <recommends>
         <display_length compare="ge">360</display_length>
