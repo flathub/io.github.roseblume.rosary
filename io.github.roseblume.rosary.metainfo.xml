@@ -285,6 +285,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="2.0.7" date="2024-08-18">
+            <description>
+                <ul>
+                    <li>Improved Dark Mode</li>
+                    <li>Bug Fixes</li>
+                </ul>
+            </description>
+        </release>
         <release version="2.0.6" date="2024-06-17">
             <description>
                 <ul>
