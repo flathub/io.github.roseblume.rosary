@@ -25,7 +25,7 @@ modules:
       - install -Dm644 io.github.roseblume.rosary.metainfo.xml /app/share/metainfo/io.github.roseblume.rosary.metainfo.xml
     sources:
       - type: file
-        url: https://github.com/RoseBlume/Rosary/releases/download/v2.0.5/rosary_2.0.5_amd64.deb
+        url: https://github.com/RoseBlume/Rosary/releases/download/v2.0.6/rosary_2.0.6_amd64.deb
         sha256: ead3dd70fce5abe893e56b6ba447ce08e2b04c6296bf91d6bf7bc2e5fe7d61c9
         dest-filename: rosary.deb
         only-arches: [x86_64]
@@ -34,7 +34,7 @@ modules:
           project-id: 6377
           url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_"$version"_amd64.deb
       - type: file
-        url: https://github.com/RoseBlume/Rosary/releases/download/v2.0.5/rosary_2.0.5_arm64.deb
+        url: https://github.com/RoseBlume/Rosary/releases/download/v2.0.6/rosary_2.0.6_arm64.deb
         sha256: b32ebbc15ab2d5795762a794d1be4b2af4855390cf0261bcb32b4e2e157ef046
         dest-filename: rosary.deb
         only-arches: [aarch64]
@@ -43,7 +43,7 @@ modules:
           project-id: 6377
           url-template: https://github.com/RoseBlume/Rosary/releases/download/v$version/rosary_"$version"_arm64.deb
       - type: file
-        url: https://github.com/RoseBlume/Rosary/releases/download/flatpak/rosary_2.0.5_armhf.deb
+        url: https://github.com/RoseBlume/Rosary/releases/download/v2.0.6/rosary_2.0.6_armhf.deb
         sha256: d8ea57fa42f6080b33a13571eba1bfff93147700f4068fdb1f59a3aae77e6512
         dest-filename: rosary.deb
         only-arches: [armhf]
